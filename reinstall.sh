@@ -4519,7 +4519,7 @@ elif is_use_dd; then
     echo 'Reboot to start DD.'
 elif [ "$distro" = fnos ]; then
     echo "Special note for FNOS:"
-    echo "Reboot to start the installation."
+    echo "Type reboot to start the installation."
     echo "SSH login is disabled when installation completed."
     echo "You need to config the account and password on http://SERVER_IP:5666 as soon as possible."
     echo
