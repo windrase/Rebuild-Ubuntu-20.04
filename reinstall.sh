@@ -2297,7 +2297,7 @@ echo "==============================================="
 echo "=              TYPE YOUR PASSWORD             ="
 echo "=        Script Recode By Wintunelig VPN      ="
 echo "==============================================="
-echo "IF NOT FILLED IN THE DEFAULT PASSWORD WILL BE USED!"
+echo "IF NOT FILLED IN, THE DEFAULT PASSWORD WILL BE USED!"
 
 prompt_password() {
     info "prompt password"
