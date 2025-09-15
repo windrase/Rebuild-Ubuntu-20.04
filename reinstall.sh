@@ -4493,6 +4493,7 @@ fi
 
 info 'info'
 echo "$distro $releasever"
+green "Please Save This Information VPS"
 
 case "$distro" in
 windows) username=administrator ;;
@@ -4500,6 +4501,7 @@ dd | netboot.xyz) username= ;;
 *) username=root ;;
 esac
 
+green "Please Save This Information VPS"
 if [ -n "$username" ]; then
     echo "Username: $username"
     if [ -n "$ssh_keys" ]; then
