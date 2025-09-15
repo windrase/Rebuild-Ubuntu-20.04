@@ -4491,7 +4491,7 @@ EOF
     fi
 fi
 
-info 'info'
+info 'Save this information VPS'
 echo "$distro $releasever"
 
 case "$distro" in
@@ -4517,7 +4517,7 @@ elif is_use_dd; then
     echo 'Reboot to start DD.'
 elif [ "$distro" = fnos ]; then
     echo "Special note for FNOS:"
-    echo "Type reboot to start the installation."
+    echo "Reboot to start the installation."
     echo "SSH login is disabled when installation completed."
     echo "You need to config the account and password on http://SERVER_IP:5666 as soon as possible."
     echo
@@ -4526,7 +4526,9 @@ elif [ "$distro" = fnos ]; then
     echo "安装完成后不支持 SSH 登录。"
     echo "你需要尽快在 http://SERVER_IP:5666 配置账号密码。"
 else
-    echo "Reboot to start the installation."
+    echo "==============================================="
+    echo "=        Reboot to start instalition          ="
+    echo "==============================================="
 fi
 
 if is_in_windows; then
