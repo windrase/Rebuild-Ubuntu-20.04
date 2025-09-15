@@ -2297,11 +2297,12 @@ echo "==============================================="
 echo "=              TYPE YOUR PASSWORD             ="
 echo "=        Script Recode By Wintunelig VPN      ="
 echo "==============================================="
+green "if not filled in the default password will be used"
 prompt_password() {
     info "prompt password"
     while true; do
-        IFS= read -r -p "Password [$DEFAULT_PASSWORD]: " password
-        IFS= read -r -p "Retype password [$DEFAULT_PASSWORD]: " password_confirm
+        IFS= read -r -p "Password : " password
+        IFS= read -r -p "Retype password : " password_confirm
         password=${password:-$DEFAULT_PASSWORD}
         password_confirm=${password_confirm:-$DEFAULT_PASSWORD}
         if [ -z "$password" ]; then
