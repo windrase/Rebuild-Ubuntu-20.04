@@ -14,6 +14,26 @@ bash reinstall.sh windows \
 ```
 
 
+```
+***** SAVE THIS INFORMATION VPS *****
+ubuntu 20.04
+Username: root
+Password: Windrase123@
+===============================================
+=        Reboot to start instalition          =
+===============================================
+***** SAVE THIS INFORMATION VPS *****
+Windows Login
+Port : 3389
+Username: administrator
+Password: Windrase123@
+===============================================
+=        Reboot to start instalition          =
+===============================================
+```
+
+
+
 
 
 
