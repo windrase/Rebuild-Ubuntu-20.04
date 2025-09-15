@@ -2293,6 +2293,10 @@ trim() {
     sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//'
 }
 
+echo "==============================================="
+echo "=              TYPE YOUR PASSWORD             ="
+echo "=        Script Recode By Wintunelig VPN      ="
+echo "==============================================="
 prompt_password() {
     info "prompt password"
     while true; do
